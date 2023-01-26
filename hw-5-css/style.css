@@ -1,0 +1,463 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	/*outline: none;*/
+}
+
+a:focus,
+a:active {
+	/* outline: none;*/
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    /* color: inherit; */
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover  {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+.main {
+	background-color: #FBE4FF;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	max-height: 65px;
+	background-color: #243B93;
+}
+.logo {
+	width: 140px;
+	padding: 5px;
+	justify-content: left;
+	display: inline-block;
+}
+.nav {
+	/*position: absolute;*/
+	/*left: 250px;*/
+
+   width: 100%;
+   height:50px;
+	/*padding: 5px;*/
+	justify-content: space-between;
+	display: inline;
+
+
+
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'PT Sans';
+	color: #fff;
+}
+.nav a {
+	text-decoration: none;
+	font-size: 19px;
+	color:#FFF;
+	padding: 5px;
+}
+.nav a:hover {
+	background: #FFF;
+	color: #345;
+	transition: 1000ms;
+}
+ul {
+    margin: 0;
+    padding: 12px;
+}
+li {
+    display: inline-block;
+	 padding-left: 70px;
+}
+
+.lang {
+	padding: 5px;
+	justify-content: right;
+	display: inline-block; 
+}
+.layout {
+	width: 1320px;
+	margin: 0 auto;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.firstBlock {
+	display: flex;
+height: 85px;
+background: #BFF0FF;
+}
+.firstBlockText {
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 57px;
+	
+	display: flex;
+	align-items: center;
+	
+	color: #202846;
+}
+
+.secondBlock {
+	display: flex;
+height: 60px;
+/*width: 1320px;*/
+background: #FFFFFF;
+margin: 30px 0;
+margin-left: 300px;
+margin-right: 300px;
+}
+.secondBlockText {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 36px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: #000000;
+	opacity: 0.6;
+	margin: 0 auto;
+
+}
+
+.offer {
+	background: linear-gradient(92.95deg, #ADCBD5 0%, #00AEE6 100%);
+	max-width: 1320px;
+	height: 300px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 50px;
+}
+
+.img {
+	border: 5px solid 000;
+	width: 40%;
+
+}
+
+.content {
+	display: inline-block;
+	border: 5px solid 000;
+	width: 60%;
+
+}
+.imgOffer {
+	margin: 30px;
+}
+.title-content {
+	font-family: 'PT Sans';
+font-style: italic;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+margin-top: 25px;
+color: #353C57;
+}
+.description-content {
+	font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+color: #202846;
+background-color: #EDFBFF;
+padding: 10px;
+width: 90%;
+height: 60%;
+}
+hr {
+	width: 90%;
+	height: 3px;
+background: #FFFFFF;
+margin: 8px 0;
+}
+.title-star {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.btn {
+	
+	width: 210px;
+	height: 45px;
+	border-radius: 30px;
+	background-color: #243B93;
+	padding: 5px;
+	text-align: center;
+}
+
+.btn-pos {
+	position: relative;
+	left: 1150px;
+	top: -60px;
+	
+}
+.btn, a {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FFFFFF;
+	
+}
+
+
+
+.offer:hover .btn {
+	background-color: #EF075B;
+
+}
+
+.offer:hover {
+	background: #2CBDEB;
+	box-shadow: 0px 0px 60px 4px #2CBDEB;
+
+}
+
+
+ .icon-svg {
+	fill: #ffffff;
+width: 50px;
+margin: 20px 20px 0 0;
+	}
+.offer:hover .icon-svg {
+	fill: #FFF500;
+	width: 50px;
+	margin: 20px 20px 0 0;
+}
+
+.thirdBlock {
+	display: flex;
+height: 85px;
+background: linear-gradient(90deg, #FFE601 0%, #55D6FF 100%);
+}
+.thirdBlockText {
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 44px;
+	
+	display: flex;
+	align-items: center;
+	
+	color: #243B93;
+}
+
+.cabinet {
+	background: linear-gradient(180deg, #859EFF 0%, rgba(105, 255, 210, 0.5) 100%);
+	max-width: 1320px;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 50px;
+}
+.btn2:hover  {
+	background-color: #EF075B;
+
+}
+
+.imgavatar {
+	margin: 50px 130px;
+	border-radius: 100px;
+	width: 200px;
+}
+.btn2 {
+	margin: 20px auto;
+	width: 210px;
+	height: 45px;
+	border-radius: 30px;
+	background-color: #243B93;
+	padding: 5px;
+	text-align: center;
+}
+.btn2, a {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FFFFFF;
+	
+}
+.avatar {
+}
+
+.title-info-content {
+	font-family: 'PT Sans';
+font-style: italic;
+font-weight: 700;
+font-size: 36px;
+margin-top: 25px;
+color: #353C57;
+}
+.info {
+	display: inline-block;
+	border: 5px solid 000;
+	width: 60%;
+	margin-top: 20px;
+
+}
+
+.fourBlock {
+	display: flex;
+height: 85px;
+background: linear-gradient(90deg, #54D6FF 0%, #FFE600 100%);
+}
+.fourBlockText {
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 44px;
+	
+	display: flex;
+	align-items: center;
+	
+	color: #243B93;
+}
+
+
+
+.footerBlock {
+	display: flex;
+height: 65px;
+background: #243B93;
+}
+.footerBlockText {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	
+	display: flex;
+	align-items: center;
+	
+	color: #ffffff;
+}
+
+.map {
+	display: inline-block;
+	border: 5px solid 000;
+	width: 40%;
+	margin-top: 20px;
+
+}
+.adress {
+	display: flex;
+
+}
+
+.contact {
+	max-width: 1320px;
+	margin-top: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 50px;
+}
+.title-contact {
+	display: flex;
+flex-wrap: wrap;
+width: 50%;
+}
+
+
+.title-info-contact {
+	font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+color: #000000;
+
+}
